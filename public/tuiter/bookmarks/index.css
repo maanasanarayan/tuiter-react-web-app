@@ -1,0 +1,70 @@
+.wd-main-container {
+  border: 1px solid rgb(47, 51, 54);
+  margin: 16px 12px;
+  padding: 12px 16px;
+  width: fit-content;
+}
+
+.wd-title > h1 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.wd-gray-color {
+  color: darkgrey;
+}
+
+.wd-red-color {
+  color: red;
+}
+.wd-title > h2 {
+  font-size: 13px;
+}
+
+.wd-title {
+  border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+.wd-bookmark {
+  padding: 12px 16px;
+  display: flex;
+  font-size: 15px;
+  border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+.wd-avatar > img {
+  border-radius: 50px;
+}
+
+.wd-post-content {
+  padding: 0 12px;
+  max-width: 506px;
+}
+
+.wd-post-content img {
+  margin-top: 12px;
+  border: 1px solid rgb(47, 51, 54);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.wd-image-content {
+  padding: 12px;
+  border: 1px solid rgb(47, 51, 54);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top: none;
+}
+
+.wd-action-count {
+  margin-left: 12px;
+}
+
+.wd-actions {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 60px 12px 12px;
+}
+.wd-actions a {
+  text-decoration: none;
+}
