@@ -1,0 +1,57 @@
+.wd-search-icon {
+  bottom: 8px;
+  left: 18px;
+  font-size: small;
+}
+
+.wd-more-icon {
+  left: 3px;
+  bottom: 5px;
+  font-size: x-small;
+}
+
+.wd-input-height {
+  height: 30px;
+}
+
+body,
+.list-group-item {
+  background-color: black;
+  color: white;
+}
+
+.wd-tuit-button,
+.list-group-item.active {
+  background-color: #0d93f0;
+  border-color: #0d93f0;
+}
+
+.wd-search-bar,
+.wd-right-column .list-group-item {
+  background-color: #2a2828;
+  border-color: #2a2828;
+}
+
+.nav-link {
+  color: #6c757d;
+}
+
+.nav-link.active {
+  color: white !important;
+  background-color: black !important;
+  font-weight: bold;
+  border: none;
+  border-bottom: 3px solid #0d93f0 !important;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #6c757d;
+}
+
+.border-secondary {
+  border-color: #333638 !important;
+}
+
+.wd-right-column {
+  border-radius: 20px;
+}
