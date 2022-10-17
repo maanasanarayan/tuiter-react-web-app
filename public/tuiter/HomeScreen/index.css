@@ -1,0 +1,24 @@
+.wd-search-icon {
+  bottom: 8px;
+  left: 18px;
+  font-size: small;
+}
+
+.wd-more-icon {
+  left: 3px;
+  bottom: 5px;
+  font-size: x-small;
+}
+
+.wd-input-height {
+  height: 30px;
+}
+
+#post-summary img {
+  width: 70px;
+  height: 70px;
+}
+
+.wd-post-title {
+  font-size: 14px;
+}
