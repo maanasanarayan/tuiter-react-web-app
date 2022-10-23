@@ -13,10 +13,12 @@ const PostSummaryItem = ({
     <li className="list-group-item">
       <div className="row">
         <div className="col-10">
+          <div>{post.topic}</div>
           <div>
-            {post.userName} . {post.time}
+            <span className="fw-bolder">{post.userName}</span>
+            <i class="bi bi-patch-check-fill ms-2"></i> - {post.time}
           </div>
-          <div className="fw-bolder">{post.topic}</div>
+
           <div>{post.title}</div>
         </div>
         <div className="col-2">
