@@ -1,15 +1,12 @@
 import React from "react";
-import postDetails from "./post-details.json";
-import PostDetailItem from "./post-detail-item";
+import WhatsHappening from "./whats-happening";
+import TuitList from "./../tuits/tuit-list";
 
 const HomeComponent = () => {
   return (
     <>
-      <div className="list-group">
-        {postDetails.map((post) => (
-          <PostDetailItem key={post._id} post={post} />
-        ))}
-      </div>
+      <WhatsHappening />
+      <TuitList />
     </>
   );
 };
