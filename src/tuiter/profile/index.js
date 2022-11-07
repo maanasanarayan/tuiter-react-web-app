@@ -14,7 +14,9 @@ const ProfileComponent = () => {
       <div className="row">
         <div className="col-1 pt-2">
           <strong>
-            <i class="bi bi-arrow-left p-2"></i>
+            <Link to="/tuiter/home">
+              <i class="bi bi-arrow-left p-2 text-dark"></i>
+            </Link>
           </strong>
         </div>
         <div className="col-11">
