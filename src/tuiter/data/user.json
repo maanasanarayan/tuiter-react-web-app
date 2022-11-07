@@ -1,0 +1,15 @@
+{
+  "firstName": "Maanasa",
+  "lastName": "Narayan",
+  "handle": "mnsnryn",
+  "profilePicture": "../../../images/react.jpg",
+  "bannerPicture": "../../../images/background.jpg",
+  "bio": "Student at Northeastern, Intern at Amazon, Tech enthusiast. Retweets and likes are not endorsements.",
+  "website": "youtube.com/webdevtv",
+  "location": "Boston, MA",
+  "dateOfBirth": "1 Jan, 1996",
+  "dateJoined": "April 2009",
+  "followingCount": 340,
+  "followersCount": 223,
+  "tuitCount": 534
+}
