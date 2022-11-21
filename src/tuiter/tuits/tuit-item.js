@@ -1,12 +1,12 @@
 import React from "react";
 import TuitStats from "./tuit-stats";
 import { useDispatch } from "react-redux";
-import { deleteTuit } from "../reducers/tuits-reducer";
+import { deleteTuitThunk } from "../../services/tuits-thunks";
 
 const TuitItem = ({ post }) => {
   const dispatch = useDispatch();
   const deleteTuitHandler = (id) => {
-    dispatch(deleteTuit(id));
+    dispatch(deleteTuitThunk(id));
   };
 
   return (
@@ -14,7 +14,7 @@ const TuitItem = ({ post }) => {
       <div className="row">
         <div className="col-1 p-0">
           <img
-            src={post.image}
+            src={"../../../images/" + post.image}
             className="rounded-circle"
             height="40px"
             width="40px"
@@ -30,16 +30,16 @@ const TuitItem = ({ post }) => {
             <span>
               {" "}
               <strong>
-                {post.userName}{" "}
+                {post.username}{" "}
                 <i class="bi bi-patch-check-fill text-primary me-2"></i>
               </strong>
             </span>
             <span className="text-secondary">
-              @{post.handle} • {post.time}
+              {post.handle} • {post.time}
             </span>
           </div>
           <div className="wd-image-content">{post.tuit}</div>
-          <TuitStats post={post} />
+          <TuitStats tuit={post} />
         </div>
       </div>
     </div>
