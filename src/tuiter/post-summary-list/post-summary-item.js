@@ -15,7 +15,7 @@ const PostSummaryItem = ({
         <div className="col-10">
           <div>{post.topic}</div>
           <div>
-            <span className="fw-bolder">{post.userName}</span>
+            <span className="fw-bolder">{post.username}</span>
             <i class="bi bi-patch-check-fill ms-2"></i> - {post.time}
           </div>
 
