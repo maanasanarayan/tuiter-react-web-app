@@ -7,25 +7,9 @@ import {
   updateTuitThunk,
 } from "../../services/tuits-thunks";
 
-const currentUser = {
-  userName: "NASA",
-  handle: "nasa",
-  image: "../../../images/nasa.png",
-};
-
 const initialState = {
   tuits: [],
   loading: false,
-};
-
-const templateTuit = {
-  ...currentUser,
-  topic: "Space",
-  time: "just now",
-  liked: false,
-  replies: 0,
-  retuits: 0,
-  likes: 0,
 };
 
 const tuitsSlice = createSlice({
