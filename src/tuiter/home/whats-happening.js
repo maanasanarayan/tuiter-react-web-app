@@ -7,7 +7,7 @@ const WhatsHappening = () => {
   const currentUser = {
     userName: "NASA",
     handle: "nasa",
-    image: "../../../images/nasa.png",
+    image: "nasa.png",
   };
   const dispatch = useDispatch();
 
